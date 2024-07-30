@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #191919;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: #FFDFDF;
+}
+
+.projects {
+    padding: 70px;
+}
+
+
+.show {
+    display: block;
+}
+
+.allprojects {
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+.btn {
+    width: 24%;
+    border: none;
+    outline: none;
+    padding: 15;
+    background-color: #AD88C6;
+    color: #191919;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+div.desc {
+    font-size: small;
+    margin-bottom: 50px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #FFDFDF, #614385, #FFDFDF);
+        width: 5px;
+        border-radius: 5px;
+    }
+
+    .navigation {
+        margin: 1px;
+        padding: 1px;
+    }
+
+    .main {
+        position: sticky;
+        flex-direction: column;
+        padding: 6px;
+        margin-bottom: 15%;
+    }
+
+    .main2 {
+        position: sticky;
+        padding: 6px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ty {
+        padding-bottom: 10%;
+    }
+
+    .projects {
+        padding: 70px;
+    }
+
+    .inputcnt {
+        margin-left: 35px;
+        margin-bottom: 10%;
+    }
+
+    .main1 {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        position: relative;
+        padding-top: 20px;
+    }
+
+    .profile {
+        width: 65%;
+    }
+
+    .cont {
+        border-top: 2px solid #FFDFDF;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .projects {
+        margin-bottom: 10%;
+    }
+
+    .filterabout {
+        width: 100%;
+       
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .btn {
+        margin-left: 13px;
+        width: 100%;
+    }
+
+    .bout_btn {
+        width: 100%;
+    }
+
+    .allprojects {
+        margin-bottom: 50%;
+    }
+
+    .info {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .contact_icon {
+        padding: 6px;
+    }
+
+    .back {
+        margin-top: 35px;
+        padding: 2px;
+        size: 2px;
+    }
+
+    ._cnt {
+        margin-top: 50px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navigation a {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .projects {
+        padding: 50px;
+    }
+
+    .filterabout {
+        width: 100%;
+    }
+
+    .btn {
+        width: 49%;
+    }
+
+    #myBtn {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navigation a {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .projects {
+        padding: 40px;
+    }
+
+    .filterabout {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .main1,
+    .main2,
+    .projects {
+        margin-bottom: 20px;
+        /* Add a 20px margin at the bottom */
+    }
+
+    .navigation {
+        padding: 5px;
+    }
+
+    .projects {
+        padding: 30px;
+    }
+
+    .filterabout {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .main1,
+    .main2 {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navigation a {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .projects {
+        padding: 20px;
+    }
+
+    .main1,
+    .main2 {
+        padding: 5px;
+    }
+
+    .filterabout {
+        padding: 5px;
+    }
+
+    .btn {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .navigation a {
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .projects {
+        padding: 10px;
+    }
+
+    .main1,
+    .main2 {
+        padding: 2px;
+    }
+
+    .filterabout {
+        padding: 2px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .profile {
+        padding-left: 4rem;
+        width: 30%;
+    }
+
+    .cont {
+        padding-right: 8rem;
+        padding-top: 5rem;
+        padding-left: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .navigation a {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .projects {
+        padding: 50px;
+    }
+
+    .filterabout {
+        width: 100%;
+    }
+
+    .btn {
+        width: 49%;
+    }
+
+    #myBtn {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navigation {
+        padding: 5px;
+    }
+
+    .profile {
+        padding-left: 2rem;
+        width: 35%;
+    }
+
+    .cont {
+        padding-right: 4rem;
+        padding-top: 4rem;
+        padding-left: 2rem;
+    }
+
+    .main,
+    .main2 {
+        margin-bottom: 20px;
+        /* Add a 20px margin at the bottom */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        padding: 6px;
+        margin-bottom: 15%;
+
+    }
+
+    .main2 {
+        flex-direction: column;
+        align-items: center;
+        padding: 6px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .profile {
+        width: 65%;
+    }
+
+    .cont {
+        border-top: 2px solid #FFDFDF;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navigation a {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    .main,
+    .main2 {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .navigation a {
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .main,
+    .main2 {
+        padding: 2px;
+    }
+}
+
+a:hover {
+    font-weight: bold;
+    background-image: linear-gradient(to right, #EFBC9B, #AD88C6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #614385;
+    border: 1px solid #614385;
+    border-radius: 8px;
+    border-color: linear-gradient(to right, #EFBC9B, #AD88C6);
+    color: transparent;
+    box-shadow: 0 0 0 1px #EFBC9B, 0 0 0 1px #AD88C6;
+}
+#videoModal, #videoModal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the modal is on top */
+}
+
+video {
+    max-width: 90%;
+    max-height: 80%;
+    z-index: 1; /* Ensure the video is on top of the background */
+}
+
+#videoModal button, #videoModal2 button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1001; /* Ensure the button is above the video */
+}

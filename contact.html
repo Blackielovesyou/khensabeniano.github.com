@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="home-sci">
+        <a href="https://www.facebook.com/profile.php?id=100074544657848"><i class='bx bxl-facebook'></i></a>
+        <a href="#" class=""><i class='bx bxl-instagram'></i></i></a>
+    </div>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experience</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-section">
+        <div class="contact-info">
+            <div><i class='bx bxs-location-plus'> Siniloan, Laguna, Philippines</i></div>
+            <div><i class='bx bxs-envelope'> khensabeniano@email.com</i></div>
+            <div></i><i class='bx bxs-phone'> +63 9534 364 65</i></div>
+        </div>
+        <div class="contact-form">
+            <h2><span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span>
+                <span>Us</span>
+            </h2>
+            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+            <textarea name="message" class="text-box" placeholder="Your Message" rows="5" required></textarea>
+            <a href="#" class="btn" id="submitBtn">Submit</a>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("submitBtn").addEventListener("click", function (event) {
+            event.preventDefault();
+            var name = document.getElementsByName("name")[0].value;
+            var email = document.getElementsByName("email")[0].value;
+            var message = document.getElementsByName("message")[0].value;
+
+            if (email.indexOf("@") === -1) {
+                alert("Please enter a valid email address.");
+                return; 
+            }
+
+            document.getElementsByName("name")[0].value = "";
+            document.getElementsByName("email")[0].value = "";
+            document.getElementsByName("message")[0].value = "";
+            alert("Message submitted! We'll get back to you soon.");
+        });
+    </script>
+</body>
+
+</html>
